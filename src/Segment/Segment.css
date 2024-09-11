@@ -1,0 +1,81 @@
+.Segment {
+  margin: 0;
+}
+
+.Saving-segement {
+  width: 80%;
+}
+
+.Segement-header {
+  background-color: rgba(7, 217, 217, 0.916);
+  color: white;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  font-size: 18px;
+}
+.Segement-body {
+  background-color: white;
+  min-height: 300px;
+  display: grid;
+  row-gap: 20px;
+
+  padding: 20px 40px;
+}
+
+.traits {
+  padding-right: 40%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.segment-selecter {
+  display: flex;
+  gap: 10px;
+}
+
+.text_input {
+  height: 40px;
+  width: 40%;
+  padding: 5px 15px;
+  column-gap: 5px;
+}
+
+.remove_segment {
+  height: 40px;
+  width: 30px;
+}
+
+.Segement-footer {
+  display: flex;
+  gap: 30px;
+  padding: 20px 40px;
+}
+.button {
+  height: 40px;
+  padding: 5px 15px;
+  border-color: white;
+}
+
+#but_1 {
+  color: white;
+  font-size: 16px;
+  background-color: rgb(12, 207, 162);
+}
+
+#but_2 {
+  color: red;
+  font-size: 16px;
+  background-color: white;
+}
+
+.add_segment {
+  border: none;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+  color: rgb(12, 207, 162);
+}
